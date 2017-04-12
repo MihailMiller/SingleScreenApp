@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.singlescreenapp.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_alignTop="@+id/imageView"
+        android:text="Abstraction"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textAllCaps="true"
+        android:textSize="50sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Media design"
+        android:textStyle="bold"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textAllCaps="true"
+        android:textSize="50sp"
+        android:id="@+id/textView3"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call +4933423128811"
+        android:textStyle="bold"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:id="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
